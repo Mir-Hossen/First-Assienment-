@@ -1,0 +1,118 @@
+/* Google Font link here  */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+ /* Defult margin & padding  */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:"Azeret Mono",  sans-serif;
+}
+/* nav-are css start here  */
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo
+{
+    margin: 50px 0px 0 50px ;
+}
+.nav-btn
+{
+    margin: 38px 166px 0 0;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    color:rgb(13, 19, 33);
+    opacity: 0.8;
+    padding: 17px 24px 17px 24px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    line-height: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+/* hero area css start here  */
+.hero-box-container
+{
+    width: 1440px;
+    height: 652px;
+    margin-top: 35px;
+    margin: 35px auto 0;
+}
+.hero-bg-img
+{
+    width: inherit;
+    height: inherit;
+    background:url(../assets/Hero-bg.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content-box
+{
+    width: 998px;
+    height: 582px;
+    margin: auto;
+}
+.hero-content-box
+{
+
+
+}
+.hero-img
+{
+    text-align: center;
+}
+.hero-img img
+{
+    width: 173.03px;
+    height: 228.9px;
+    margin-top: 26px;
+}
+.hero-content
+{}
+.hero-tittle 
+{
+    width: 998px;
+    height: 136px;
+    color: rgb(13, 19, 33);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 43px;
+}
+
+.hero-description
+{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: -10px;
+}
+#hero-contact-btn
+{
+    text-align: center;
+    margin-top: 40px;
+
+}
+#hero-contact-btn a
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 160px;
+    height: 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    text-decoration: none;
+    margin-top: 32px;
+}
