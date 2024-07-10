@@ -394,8 +394,179 @@
 
 .learn-btn 
 {
+    display: block;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+    margin: 24px 0px;
+}
+/* next terget section css start here  */
+.next-terget-section
+{
+    width: 1140px;
+    height: 868px;
+    margin: 111px auto;
+}
+.next-terget-head-content
+{
+    width: 946px;
+    height: 115px;
+    margin:  auto;
+    text-align: center;
+}
+.next-terget-tittle
+{
+    width: 852px;
+    height: 39px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.next-terget-description
+{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+}
 
+.next-terget-card-container
+{
+    width: 1140px;
+    height: 219px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-top: 48px;  
+}
+.next-terget-card
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.next-terget-card-img
+{
+    width: 94.78px;
+    height: 84.41px;
+}
+.next-terget-content
+{
+    width: 941.22px;
+    height: 139px;
+    margin: 16px 0 0 24px;
+}
+.content-tittle
+{
+    width: 100%;
+    height: 36px;
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.content-description
+{
+    width: 941.22px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 8px 0px;
+}
+.next-terget-learn-more-btn
+{
+    width: 941.22px;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0px;
+}
+
+/* support section css start here  */
+.support-bg-img
+{
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+    margin:44px auto 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.26),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(/assets/handshake.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.support-section-content
+{
+    width: 1044px;
+    height: 314px;
+    margin: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-head-content
+{
+    width: 730px;
+    height: 104px;
+    margin: 24px 0;
+}
+.support-tittle
+{
+
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    margin: 16px 0px;
+}
+.suppurt-description
+{
+    width:100%;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+.support-searchbar::placeholder
+{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px 10px;
+}
+.support-searchbar input[type="text"]
+{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+    padding: 19px 20px 19px 20px;
+}
+
+.support-searchbar input[type="submit"]
+{
+    width: 120px;
+    height: 58px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 10px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
